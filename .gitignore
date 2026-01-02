@@ -1,4 +1,4 @@
-# Ignore Python cache
+# Python cache
 __pycache__/
 *.py[cod]
 *$py.class
@@ -32,10 +32,15 @@ Thumbs.db
 
 # Logs
 *.log
+nohup.out
 
 # Environment variables
 .env
 .env.local
+
+# Config files (may contain sensitive data)
+vast_ai_config.txt
+gpu_info.txt
 
 # Git
 .git/

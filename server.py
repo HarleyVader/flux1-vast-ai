@@ -257,4 +257,5 @@ if __name__ == '__main__':
     print("  GET  /health        - Health check")
     print("="*60 + "\n")
     
-    app.run(host='0.0.0.0', port=5000, debug=False)
+    # Run server on port 6006 (mapped to public port via VAST_TCP_PORT_6006)
+    app.run(host='0.0.0.0', port=6006, debug=False)
